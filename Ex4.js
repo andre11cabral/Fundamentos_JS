@@ -4,10 +4,10 @@ e o resto da divisão destes dois valores. */
 function calculo(dividendo, divisor) {
     
     let resultado = Math.floor(dividendo / divisor);
-    console.log(`O resultado é ` + resultado);
+    console.log("O resultado é " + resultado);
 
 
     let resto = dividendo - (resultado * divisor);
-    console.log(`O resto dessa divisão é ` + resto);
+    console.log("O resto dessa divisão é " + resto);
 
 } calculo(17, 3)
