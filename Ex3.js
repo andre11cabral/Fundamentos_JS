@@ -1,9 +1,6 @@
 /*Crie uma função que recebe dois parâmetros, base e expoente, e retorne a base elevada ao expoente.  */
-function calculo1(base, expoente) {
-    
-    let baseElevada = base ** expoente  ;
-    console.log(baseElevada);
+function elevarExpoente(base, expoente) {
 
-    return baseElevada;
+    return base ** expoente;
 }
-calculo1(5, 3)
+console.log(elevarExpoente(5, 3))
