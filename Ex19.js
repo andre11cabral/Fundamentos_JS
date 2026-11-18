@@ -35,8 +35,6 @@ function chamaPedi(codigo, quantidade) {
             valorTotal = (quantidade * 3.50);
             return `Total a pagar pelo Refrigerante: ${`R$` + valorTotal.toFixed(2)}`;
 
-
-
         case 600:
             valorTotal = (quantidade * 2.80);
             return `Total a pagar pelo Suco: ${`R$` + valorTotal.toFixed(2)}`;
